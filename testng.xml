@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   
-  <test name="Test">
+  <test name="Browser test">
     <classes>
-      <class name="test.UiTest"/>
+      <class name="demo.BrowserTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
