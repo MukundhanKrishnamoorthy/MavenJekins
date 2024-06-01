@@ -34,6 +34,7 @@ public class BrowserTest {
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.manage().window().getSize();
+		System.out.println(driver.manage().window().getSize());
 		Assert.assertTrue(driver.getTitle().equals("Google"));
 		driver.quit();
 	}
