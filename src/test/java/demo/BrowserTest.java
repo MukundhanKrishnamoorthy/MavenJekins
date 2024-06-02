@@ -21,6 +21,7 @@ public class BrowserTest {
 			System.out.println("Current driver invoked is Chrome");
 		}
 
+			
 		else if(browserValue.equalsIgnoreCase("edge")){
 			driver = new EdgeDriver();
 			System.out.println("Current driver invoked is Edge");
